@@ -2,7 +2,6 @@ from multimethod import multimethod
 import math
 
 class Vector3D:
-    
     def __init__(self, x: float, y: float, z: float):
         self.__x = x
         self.__y = y

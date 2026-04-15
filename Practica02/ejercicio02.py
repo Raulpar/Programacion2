@@ -35,9 +35,6 @@ class AlgebraVectorial:
     @multimethod
     def esParalelo(self, x: float, y: float):
         return self.__x * y == self.__y * x
-
-
-# 🔹 Clase principal
 class Main():
     v1 = AlgebraVectorial(2.0, 3.0)
     v2 = AlgebraVectorial(4.0, 6.0)
